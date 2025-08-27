@@ -1,0 +1,9 @@
+{
+    "name": "Numerical_HUD",
+    "version_number": "1.0.0",
+    "description": "Adds numbers to the hud and other useful information",
+    "dependencies": [
+        "BepInEx-BepInExPack_PEAK-5.4.75301"
+    ],
+    "website_url": "https://github.com/cloudlupus/Numerical_HUD"
+}

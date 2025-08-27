@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerical_HUD", "Numerical_HUD.csproj", "{F3083E5F-3609-E111-D7BE-97CDCE25102D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3083E5F-3609-E111-D7BE-97CDCE25102D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3083E5F-3609-E111-D7BE-97CDCE25102D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3083E5F-3609-E111-D7BE-97CDCE25102D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3083E5F-3609-E111-D7BE-97CDCE25102D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6424D3E0-E617-43B0-8833-6B6062B1579A}
+	EndGlobalSection
+EndGlobal
