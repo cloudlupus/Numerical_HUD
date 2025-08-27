@@ -1,0 +1,5 @@
+<Project>
+    <PropertyGroup>
+        <OutDir>./dist</OutDir>
+    </PropertyGroup>
+</Project>

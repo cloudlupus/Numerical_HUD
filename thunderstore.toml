@@ -1,0 +1,43 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Cloud_N_Co"
+name = "Numerical_HUD"
+versionNumber = "1.0.0"
+description = "Adds numbers to the hud and other useful information"
+websiteUrl = "https://github.com/cloudlupus/Numerical_HUD"
+containsNsfwContent = false
+[package.dependencies]
+BepInEx-BepInExPack_PEAK = "5.4.75301"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./COPYING"
+target = "./"
+
+[[build.copy]]
+source = "./COPYING.LESSER"
+target = "./"
+
+[[build.copy]]
+source = "./dist/Numerical_HUD.dll"
+target = "./"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./"
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "peak", ]
+[publish.categories]
+peak = [ "client", "misc", "qol",]
+
+
